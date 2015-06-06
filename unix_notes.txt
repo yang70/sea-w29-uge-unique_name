@@ -105,6 +105,8 @@ git commit -m 'add initial version of unix notes'
 cd .git
 git init
 
+test change
+
 
 git config --global user.email
 git config --global user.name
