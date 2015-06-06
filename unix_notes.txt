@@ -59,6 +59,53 @@ ls -t
 #install from web-site
 curl -fsSL http://git.io/7UHtNA | sh
 curl -fsSL http://git.io/QxUaOQ | sh
+
+# display all branches and current branch selected
+git branch
+
+# switch branch to 'git-notes'
+git checkout git-notes
+
+# create the 'git-notes' branch
+git branch git-notes
+
+# added commit
+git commit -m 'add note describing ls -a'
+
+# staging for commit
+git add unix_notes.txt
+
+# check status of git
+git status
+
+# show the log of commits and the messages
+git log
+
+# commit
+git commit -m 'add comment describing curl'
+
+# show the difference between the staged file and the most recent commit
+git diff --staged
+
+#open file in sublime
+subl unix_notes.txt
+
+# change directory
+cd uge_workshop/
+ls
+
+# removing file accidentally created
+rm moving_around.txt
+cd ..
+
+# initial git commit
+git commit -m 'add initial version of unix notes'
+
+# change to the .git file to look at it
+cd .git
+git init
+
+
 git config --global user.email
 git config --global user.name
 git config --global
