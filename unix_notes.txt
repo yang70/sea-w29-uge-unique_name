@@ -52,6 +52,8 @@ man ls
 ls -ltr
 ls -lt
 ls -t
+
+#install from web-site
 curl -fsSL http://git.io/7UHtNA | sh
 curl -fsSL http://git.io/QxUaOQ | sh
 git config --global user.email
