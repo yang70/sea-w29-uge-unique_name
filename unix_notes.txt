@@ -1,0 +1,955 @@
+# shows the manual for 'less'
+man less
+
+#display the history of commands - less pipes it to pager
+history | less
+history
+
+#scrolls up to clear the screen
+clear
+
+#moves up one directory
+cd ..
+
+#changes to the root directory
+cd /
+
+#lists the contents of the root directory or user directory
+ls /
+ls /Users
+
+#changes to the home directory
+cd
+
+#goes up one directory then changes to the Pictures directory
+cd ../Pictures/
+
+#lists the contents of the current directory
+ls
+
+#changes directory
+cd Bookmarks/
+
+#displays the current path
+pwd
+
+#change to Dropbox directory
+cd Dropbox/
+
+#list current directory including details (permissions, owner, group, modified)
+ls -l
+
+#another way of changing directly to the home directory
+cd $HOME
+
+#lists contents of directly including hidden files
+ls -a
+
+#shows the manual for 'ls' command
+man ls
+
+#lists contents (details -l, time -t, recursive -r)
+ls -ltr
+ls -lt
+ls -t
+curl -fsSL http://git.io/7UHtNA | sh
+curl -fsSL http://git.io/QxUaOQ | sh
+git config --global user.email
+git config --global user.name
+git config --global
+git config
+git config --global user.email yang70@gmail.com
+git config --global user.name 'Matthew Yang'
+brew update
+brew install git
+git update
+git --version
+cd ~
+which git
+git commit -m 'update, not sure what changed'
+git add -A
+git status
+cd .
+cd..
+cd cf_homework/
+cd Dropbox/Code\ Fellows\ Projects/Homework
+subl /etc/paths
+echo $PATH
+echo $EDITOR
+echo $editor
+subl ~/.config/fish/config.fish
+which subl
+ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+nano .config/fish/config.fish
+brew info
+brew in
+fish_update_completions
+which fish
+echo $SHELL
+ruby -v
+curl -fsSL http://git.io/beJs | ruby
+cd Homework/
+cd Code\ Fellows\ Projects/
+cd Dropbox
+sudo chsh bash yang70
+sudo chsh -s /bin/bash
+rbenv global 2.2.2
+echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
+echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profile
+rbenv install 2.2.2
+git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
+rbenv
+echo 'eval "$(rbenv init -)"' >> ~/.config/fish/config.fish
+echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.config/fish/config.fish
+git clone https://github.com/sstephenson/rbenv.git ~/.rbenv
+brew install rbenv ruby-build
+exit
+echo $path
+echo $EDITOR
+git diff dc898 d9b96
+git log --pretty
+git push origin master
+git commit -m 'final version'
+git add hw7_html.html hw7_stylesheet.css hw7_script.js
+add hw7_script.js
+git commit -m 'all edit buttons working and changing'
+which xelatex
+sudo gem install rails
+rails
+gem install softcover
+git commit -m 'added more button functionality'
+git commit -m 'modified up to toggle edit and changing button color'
+cd foundations1_hw7
+cd Dropbox/Code\ Fellows\ Projects/Homework/
+npm install -g jshint
+ssh matt@192.168.1.20
+open hw7_html.html
+git commit -m 'initial commit'
+git clone https://github.com/yang70/foundations1_hw7.git
+ssh matt@192.168.1.12
+ssh ruby@192.168.1.12
+subl foundations1_hw6
+open . -a "Sublime Text 2"
+subl .
+cd foundations1_hw6/
+git commit -m 'final draft - version 2'
+git add hw6_html.html
+git add hw6_html.html hw6_script.js hw6_stylesheet.css
+git commit -m 'final draft'
+git commit -m 'mystery button works with 3 functions, linked to jquery ui'
+git commit -m 'nav buttons fade in data to the table working'
+git commit -m 'removed table, added nav with buttons'
+git commit -m 'some slight changes'
+git commit -m 'added donut animation'
+git commit -m 'commiting'
+git commit -m ''
+git add cf_homework/ foundations1_hw6/ cf_homework_5/foundations1_hw5
+git commit -m 'changed button clicks to jquery'
+git commit -m 'have table generating on button click'
+git add cf_homework/ foundations1_hw6/
+git commit -m 'pushing starting files'
+git clone https://github.com/yang70/foundations1_hw6.git
+cd foundations1_hw5/
+git add foundations1_hw5/donut_shop.html
+git rm donut_shop.html
+git add donut_shop.html
+git add *.*
+git add
+git add hw5_script.js
+git add hw5_html.html
+git add hw5_stylesheet.css
+rm donut_shop.html
+git commit -m 'saving large update'
+git add hw5_html.html
+git push origin master
+git st
+git add foundations1_hw5/
+cd cf_homework_5/
+subl Homework/
+git commit
+git add cf_homework_5/
+git commit
+git add donut_shop.html
+git add foundations1_hw5/donut_shop.html
+cat donut_shop.html
+git push donut_shop.html
+mv foundations1_hw5 donut_shop.html
+cat foundations1_hw5
+mv ../donut_shop.html foundations1_hw5
+cd foundations1_hw5
+cat foundations1_hw5/
+git init
+git pull origin master
+mv donut_shop_h4_final.html donut_shop.html
+mv donut_shop_h4_final.html cf_homework_5/
+git clone https://github.com/yang70/foundations1_hw5.git
+mkdir cf_homework_5
+git add donut_shop_h4_final.html
+git add donut_shop_tablegen.html
+sudo ls Library/iTunes
+ls Library/iTunes
+sudo cd Library/iTunes
+sudo ls Library/
+ls Library/
+sudo mv Desktop/Slideshow.m4v /Users/yang70/Desktop/
+sudo ls Movies/
+sudo ls Desktop/
+sudo cd Desktop/
+cd Desktop/
+sudo cd Desktop
+cd Hopey
+cd Users/
+git add donut_shop_tablegen.html
+git remote show origin
+cat table_test.html
+git pull
+git remote -v
+git remove -v
+cd test_repo/
+git commit -m 'adding test files to a github repo'
+git add table_test.html
+git add test_repo/
+git add table_test.html
+mv table_test.html test_repo/
+cat README.md
+git remote
+git clone https://github.com/yang70/test_repo
+sudo rm -r simplegit-progit/
+rm -r simplegit-progit/
+rm simplegit-progit/
+git checkout -- README
+git log --grep removed
+git log --author Scott
+git log --grep version
+git log --grep
+git log --grep 'version'
+git log --grep="version"
+git log --grep=version
+git log --pretty=oneline --graph
+git log --pretty=fuller
+git log --pretty=full
+git log --pretty=short
+git log --pretty=oneline
+git log --stat
+git log -p -2
+git log
+cd simplegit-progit/
+git clone https://github.com/schacon/simplegit-progit
+git commit -m 'removed file extension'
+git mv README.txt README
+git commit -m 'added test line'
+git add README.txt
+subl README.txt
+git add game_js.js
+git difftool --tool-help
+git diff --staged
+git diff
+subl game_js.js
+git add .gitignore
+git status -s
+vim .gitignore
+add .gitignore
+cat .gitignore
+subl .gitignore
+git add donut_shop_draft.html
+subl donut_shop_draft.html
+subl table_test.html
+subl README
+git add #table_test.html#
+git commit -m 'js and css'
+git add *.css
+git add *.js
+git commit -m 'initial project version'
+git commit -m
+git add *.html
+git config --list
+Emacs table_test.html
+vim table_test.html
+cat .gitconfig
+ls -la
+git config user.email
+.gitconfig
+cd .gitconfig
+cd Music/
+git config --global user.email 'yang70@gmail.com'
+echo $PATH
+brew info fish
+chsh -s /usr/local/bin/fish
+echo '/usr/local/bin/fish' | sudo tee -a /etc/shells
+brew install fish
+restart
+echo 'usr/local/bin' | sudo tee -a /etc/shells
+cd bin
+cd usr
+brew doctor
+cd desk
+mv Codecademy\ Resume\ Project\ 2/ HTML\ and\ CSS/
+cd Dro
+mv Codecademy\ Resume\ Project\ 2/ ~/Dropbox/Code\ Fellows\ Projects/
+mov Codecademy\ Resume\ Project\ 2/ ~/Dropbox/Code\ Fellows\ Projects/
+gem install rails
+gem update rails
+ls Codecademy/
+mv RockPaperScissor.js Codecademy/
+mv Name\ search\ engine.js Codecademy/
+cd Codecademy/
+mv BieberRace.js Codecademy/
+mkdir Codecademy
+cd Javascript/
+subl Code\ Fellows\ Projects/
+subl Hello\,\ world\!.txt
+touch test_file1.txt
+cat Hello\,\ world\!.txt
+mv Hello\,\ world\! Hello\,\ world\!.txt
+subl Hello\,\ world\!
+cat Hello\,\ world\!
+cd "Code Fellows Projects"/
+ls Code\ Fellows\ Projects
+mv ~/Desktop/"Code Fellows Projects" ~
+tac mysampledata.txt
+tail -r mysampledata.txt
+man tail
+tail mysampledata.txt
+man tac
+cat mysampledata.txt
+ln -s /usr/local/bin/gtac /usr/local/bin/tac
+brew install coreutils
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+uniq mysampledata.txt
+vi mysampledata.txt
+sed 's/applbananas/apples/g' mysampledata.txt
+sed 's/es/bananas/g' mysampledata.txt
+sed 's/bananas/oranges/g' mysampledata.txt
+sed 's/oranges/bananas/g' mysampledata.txt
+cut -f 2 -d ' ' mysampledata.txt
+wc -m mysampledata.txt
+wc mysampledata.txt
+nl -s '. ' -w 10 mysampledata.txt
+nl mysampledata.txt
+nl -s '.' -w 10 mysampledata.txt
+ls -h
+l
+cd linuxtutorialwork/
+nl linuxtutorialwork/
+nl ../linuxworktutorial
+man sort
+sort mysampledata.txt
+tail -1 mysampledata.txt
+head -4 mysampledata.txt
+head mysampledata.txt
+touch mysampledata.txt
+cd directory2/
+chmod 777 file*
+chmod 644 file1
+ls -lh
+chmod 000 file1
+chmod 000 file
+chmod ooo file1
+touch file3
+touch file2
+touch file1
+cd dire
+mkdir directory2
+cat firstfile
+chmod u+r firstfile
+chmod u-r firstfile
+vi firstfile
+ls -ld
+cat
+vi firstfile
+less firstfile
+cat firstfile
+ls foo
+mv test2 foo
+file foo/example1
+file /foo/example1
+file exampl
+file foo
+file test2
+rm testfolder
+file testfolder
+rmdir testfolder
+cd foo
+file test2
+mv test2 /users/yang70/linuxtutorialwork/
+cd test2
+cd test
+mv barney foo/test2
+move barney foo/test2
+file barney
+mv example1 foo
+file example1
+touch example1
+rm -r foo2
+cd ../..
+cd foo2
+ls foo2
+mv foo3 foo2
+ls foo/testfolder
+ls example1
+mv example1 foo/testfolder
+ls foo3/foo2
+ls foo3
+mv foo2 foo3
+mkdir foo3
+ls ~/linuxtutorialwork/foo
+ls ~/linuxtutorialwork/foo2
+cp -r foo foo2
+cp foo foo2
+rmdir foo2
+rm example1
+rmdir -p foo2
+cp example1 foo
+cp example1 barney
+cd example1 barney
+file example1
+mkdir foo
+mkdir -v linuxtutorialwork
+rmdir linuxtutorialwork/
+rm linuxtutorialwork/
+mkdir linuxtutorialwork
+cd Pictures/
+ls -Slh
+ls -aSl
+ls -Sl
+ls -S
+man ln
+man vi
+man cp
+man touch
+man rmdir
+man mkdir
+ls -alh
+man man
+man -k alh ls
+gedit AirVPN.xml
+vi AirVPN.xml
+file AirVPN.xml
+cd .airvpn
+file .airvpn
+file Google\ Drive
+man subl
+cd /bin
+cd /var/log
+ls /etc
+ls ../../
+ls -l /Users/yang70/Music/
+ls /Users/yang70/Music
+la -l
+man get
+man get-apt
+rmdir /temp
+rm -p /temp
+popd
+pushd
+pushd i/like/icecream
+mkdir -p i/like/icecream
+rmdir stuff
+rm morestuff
+rmdir morestuff
+cd temp/stuff/morestuff
+mkdir -p temp/stuff/morestuff
+mkdir temp
+rmdir -p test/matt/stuff
+pushd ~/test/matt/stuff
+cd test/matt
+dirs
+pushd ~test/matt/stuff
+pushd test/matt/stuff
+cd test/matt/stuff
+mkdir -p test/matt/stuff
+rm -r temp
+rmdir -p temp/matt/stuff/hello
+rmdir -p temp
+mkdir -p temp/matt/stuff/hello
+mkdir -p temp/matt
+rmdir -p temp/matt
+mkdir temp/matt
+rm -R stuff
+cd ...
+rm -R i
+rm i
+rm -R -i like
+rmdir like
+cd stuff/temp/stuff/mystuff/matt/i/like
+cd temp
+cd stuff/temp/stuff/mystuff/matt/i
+cd like
+cd /temp/stuff/temp/stuff/mystuff/matt/i
+rmdir /temp/stuff/temp/stuff/mystuff/matt/i
+rmdir -p /users/yang70/temp/stuff
+rmdir ice-cream
+cd /users/yang70/temp/stuff/temp/stuff/mystuff/matt/i/like
+cd /users/yang70/stuff/temp/stuff/mystuff/matt/i/like
+cd i/like/ice-cream
+cd matt
+cd mystuff
+cd stuff
+cd users/yang70
+rmdir /temp/stuff/temp/stuff
+rmdir /temp/stuff/temp/stuff/mystuff/matt/i/like/ice-cream
+rmdir /temp/stuff/temp/stuff/mystuff/madd/i/like/ice-cream
+ls -l moving_around.txt
+ls -l
+ls moving_around.txt
+subl moving_around.txt
+ls -t
+ls -lt
+ls
+cat moving_around.txt
+history > moving_around.txt
+man less
+history | less
+history
+clear
+cd ..
+cd /
+ls /
+ls /Users
+cd
+cd ../Pictures/
+cd Bookmarks/
+pwd
+cd Dropbox/
+cd -l
+cd $HOME
+ls -a
+man ls
+ls -ltr
+curl -fsSL http://git.io/7UHtNA | sh
+curl -fsSL http://git.io/QxUaOQ | sh
+git config --global user.email
+git config --global user.name
+git config --global
+git config
+git config --global user.email yang70@gmail.com
+git config --global user.name 'Matthew Yang'
+brew update
+brew install git
+git update
+git --version
+cd ~
+which git
+git commit -m 'update, not sure what changed'
+git add -A
+git status
+cd .
+cd..
+cd cf_homework/
+cd Dropbox/Code\ Fellows\ Projects/Homework
+subl /etc/paths
+echo $PATH
+echo $EDITOR
+echo $editor
+subl ~/.config/fish/config.fish
+which subl
+ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+nano .config/fish/config.fish
+brew info
+brew in
+fish_update_completions
+which fish
+echo $SHELL
+ruby -v
+curl -fsSL http://git.io/beJs | ruby
+cd Homework/
+cd Code\ Fellows\ Projects/
+cd Dropbox
+sudo chsh bash yang70
+sudo chsh -s /bin/bash
+rbenv global 2.2.2
+echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
+echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profile
+rbenv install 2.2.2
+git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
+rbenv
+echo 'eval "$(rbenv init -)"' >> ~/.config/fish/config.fish
+echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.config/fish/config.fish
+git clone https://github.com/sstephenson/rbenv.git ~/.rbenv
+brew install rbenv ruby-build
+exit
+echo $path
+echo $EDITOR
+git diff dc898 d9b96
+git log --pretty
+git push origin master
+git commit -m 'final version'
+git add hw7_html.html hw7_stylesheet.css hw7_script.js
+add hw7_script.js
+git commit -m 'all edit buttons working and changing'
+which xelatex
+sudo gem install rails
+rails
+gem install softcover
+git commit -m 'added more button functionality'
+git commit -m 'modified up to toggle edit and changing button color'
+cd foundations1_hw7
+cd Dropbox/Code\ Fellows\ Projects/Homework/
+npm install -g jshint
+ssh matt@192.168.1.20
+open hw7_html.html
+git commit -m 'initial commit'
+git clone https://github.com/yang70/foundations1_hw7.git
+ssh matt@192.168.1.12
+ssh ruby@192.168.1.12
+subl foundations1_hw6
+open . -a "Sublime Text 2"
+subl .
+cd foundations1_hw6/
+git commit -m 'final draft - version 2'
+git add hw6_html.html
+git add hw6_html.html hw6_script.js hw6_stylesheet.css
+git commit -m 'final draft'
+git commit -m 'mystery button works with 3 functions, linked to jquery ui'
+git commit -m 'nav buttons fade in data to the table working'
+git commit -m 'removed table, added nav with buttons'
+git commit -m 'some slight changes'
+git commit -m 'added donut animation'
+git commit -m 'commiting'
+git commit -m ''
+git add cf_homework/ foundations1_hw6/ cf_homework_5/foundations1_hw5
+git commit -m 'changed button clicks to jquery'
+git commit -m 'have table generating on button click'
+git add cf_homework/ foundations1_hw6/
+git commit -m 'pushing starting files'
+git clone https://github.com/yang70/foundations1_hw6.git
+cd foundations1_hw5/
+git add foundations1_hw5/donut_shop.html
+git rm donut_shop.html
+git add donut_shop.html
+git add *.*
+git add
+git add hw5_script.js
+git add hw5_html.html
+git add hw5_stylesheet.css
+rm donut_shop.html
+git commit -m 'saving large update'
+git add hw5_html.html
+git push origin master
+git st
+git add foundations1_hw5/
+cd cf_homework_5/
+subl Homework/
+git commit
+git add cf_homework_5/
+git commit
+git add donut_shop.html
+git add foundations1_hw5/donut_shop.html
+cat donut_shop.html
+git push donut_shop.html
+mv foundations1_hw5 donut_shop.html
+cat foundations1_hw5
+mv ../donut_shop.html foundations1_hw5
+cd foundations1_hw5
+cat foundations1_hw5/
+git init
+git pull origin master
+mv donut_shop_h4_final.html donut_shop.html
+mv donut_shop_h4_final.html cf_homework_5/
+git clone https://github.com/yang70/foundations1_hw5.git
+mkdir cf_homework_5
+git add donut_shop_h4_final.html
+git add donut_shop_tablegen.html
+sudo ls Library/iTunes
+ls Library/iTunes
+sudo cd Library/iTunes
+sudo ls Library/
+ls Library/
+sudo mv Desktop/Slideshow.m4v /Users/yang70/Desktop/
+sudo ls Movies/
+sudo ls Desktop/
+sudo cd Desktop/
+cd Desktop/
+sudo cd Desktop
+cd Hopey
+cd Users/
+git add donut_shop_tablegen.html
+git remote show origin
+cat table_test.html
+git pull
+git remote -v
+git remove -v
+cd test_repo/
+git commit -m 'adding test files to a github repo'
+git add table_test.html
+git add test_repo/
+git add table_test.html
+mv table_test.html test_repo/
+cat README.md
+git remote
+git clone https://github.com/yang70/test_repo
+sudo rm -r simplegit-progit/
+rm -r simplegit-progit/
+rm simplegit-progit/
+git checkout -- README
+git log --grep removed
+git log --author Scott
+git log --grep version
+git log --grep
+git log --grep 'version'
+git log --grep="version"
+git log --grep=version
+git log --pretty=oneline --graph
+git log --pretty=fuller
+git log --pretty=full
+git log --pretty=short
+git log --pretty=oneline
+git log --stat
+git log -p -2
+git log
+cd simplegit-progit/
+git clone https://github.com/schacon/simplegit-progit
+git commit -m 'removed file extension'
+git mv README.txt README
+git commit -m 'added test line'
+git add README.txt
+subl README.txt
+git add game_js.js
+git difftool --tool-help
+git diff --staged
+git diff
+subl game_js.js
+git add .gitignore
+git status -s
+vim .gitignore
+add .gitignore
+cat .gitignore
+subl .gitignore
+git add donut_shop_draft.html
+subl donut_shop_draft.html
+subl table_test.html
+subl README
+git add #table_test.html#
+git commit -m 'js and css'
+git add *.css
+git add *.js
+git commit -m 'initial project version'
+git commit -m
+git add *.html
+git config --list
+Emacs table_test.html
+vim table_test.html
+cat .gitconfig
+ls -la
+git config user.email
+.gitconfig
+cd .gitconfig
+cd Music/
+git config --global user.email 'yang70@gmail.com'
+echo $PATH
+brew info fish
+chsh -s /usr/local/bin/fish
+echo '/usr/local/bin/fish' | sudo tee -a /etc/shells
+brew install fish
+restart
+echo 'usr/local/bin' | sudo tee -a /etc/shells
+cd bin
+cd usr
+brew doctor
+cd desk
+mv Codecademy\ Resume\ Project\ 2/ HTML\ and\ CSS/
+cd Dro
+mv Codecademy\ Resume\ Project\ 2/ ~/Dropbox/Code\ Fellows\ Projects/
+mov Codecademy\ Resume\ Project\ 2/ ~/Dropbox/Code\ Fellows\ Projects/
+gem install rails
+gem update rails
+ls Codecademy/
+mv RockPaperScissor.js Codecademy/
+mv Name\ search\ engine.js Codecademy/
+cd Codecademy/
+mv BieberRace.js Codecademy/
+mkdir Codecademy
+cd Javascript/
+subl Code\ Fellows\ Projects/
+subl Hello\,\ world\!.txt
+touch test_file1.txt
+cat Hello\,\ world\!.txt
+mv Hello\,\ world\! Hello\,\ world\!.txt
+subl Hello\,\ world\!
+cat Hello\,\ world\!
+cd "Code Fellows Projects"/
+ls Code\ Fellows\ Projects
+mv ~/Desktop/"Code Fellows Projects" ~
+tac mysampledata.txt
+tail -r mysampledata.txt
+man tail
+tail mysampledata.txt
+man tac
+cat mysampledata.txt
+ln -s /usr/local/bin/gtac /usr/local/bin/tac
+brew install coreutils
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+uniq mysampledata.txt
+vi mysampledata.txt
+sed 's/applbananas/apples/g' mysampledata.txt
+sed 's/es/bananas/g' mysampledata.txt
+sed 's/bananas/oranges/g' mysampledata.txt
+sed 's/oranges/bananas/g' mysampledata.txt
+cut -f 2 -d ' ' mysampledata.txt
+wc -m mysampledata.txt
+wc mysampledata.txt
+nl -s '. ' -w 10 mysampledata.txt
+nl mysampledata.txt
+nl -s '.' -w 10 mysampledata.txt
+ls -h
+l
+cd linuxtutorialwork/
+nl linuxtutorialwork/
+nl ../linuxworktutorial
+man sort
+sort mysampledata.txt
+tail -1 mysampledata.txt
+head -4 mysampledata.txt
+head mysampledata.txt
+touch mysampledata.txt
+cd directory2/
+chmod 777 file*
+chmod 644 file1
+ls -lh
+chmod 000 file1
+chmod 000 file
+chmod ooo file1
+touch file3
+touch file2
+touch file1
+cd dire
+mkdir directory2
+cat firstfile
+chmod u+r firstfile
+chmod u-r firstfile
+vi firstfile
+ls -ld
+cat
+vi firstfile
+less firstfile
+cat firstfile
+ls foo
+mv test2 foo
+file foo/example1
+file /foo/example1
+file exampl
+file foo
+file test2
+rm testfolder
+file testfolder
+rmdir testfolder
+cd foo
+file test2
+mv test2 /users/yang70/linuxtutorialwork/
+cd test2
+cd test
+mv barney foo/test2
+move barney foo/test2
+file barney
+mv example1 foo
+file example1
+touch example1
+rm -r foo2
+cd ../..
+cd foo2
+ls foo2
+mv foo3 foo2
+ls foo/testfolder
+ls example1
+mv example1 foo/testfolder
+ls foo3/foo2
+ls foo3
+mv foo2 foo3
+mkdir foo3
+ls ~/linuxtutorialwork/foo
+ls ~/linuxtutorialwork/foo2
+cp -r foo foo2
+cp foo foo2
+rmdir foo2
+rm example1
+rmdir -p foo2
+cp example1 foo
+cp example1 barney
+cd example1 barney
+file example1
+mkdir foo
+mkdir -v linuxtutorialwork
+rmdir linuxtutorialwork/
+rm linuxtutorialwork/
+mkdir linuxtutorialwork
+cd Pictures/
+ls -Slh
+ls -aSl
+ls -Sl
+ls -S
+man ln
+man vi
+man cp
+man touch
+man rmdir
+man mkdir
+ls -alh
+man man
+man -k alh ls
+gedit AirVPN.xml
+vi AirVPN.xml
+file AirVPN.xml
+cd .airvpn
+file .airvpn
+file Google\ Drive
+man subl
+cd /bin
+cd /var/log
+ls /etc
+ls ../../
+ls -l /Users/yang70/Music/
+ls /Users/yang70/Music
+la -l
+man get
+man get-apt
+rmdir /temp
+rm -p /temp
+popd
+pushd
+pushd i/like/icecream
+mkdir -p i/like/icecream
+rmdir stuff
+rm morestuff
+rmdir morestuff
+cd temp/stuff/morestuff
+mkdir -p temp/stuff/morestuff
+mkdir temp
+rmdir -p test/matt/stuff
+pushd ~/test/matt/stuff
+cd test/matt
+dirs
+pushd ~test/matt/stuff
+pushd test/matt/stuff
+cd test/matt/stuff
+mkdir -p test/matt/stuff
+rm -r temp
+rmdir -p temp/matt/stuff/hello
+rmdir -p temp
+mkdir -p temp/matt/stuff/hello
+mkdir -p temp/matt
+rmdir -p temp/matt
+mkdir temp/matt
+rm -R stuff
+cd ...
+rm -R i
+rm i
+rm -R -i like
+rmdir like
+cd stuff/temp/stuff/mystuff/matt/i/like
+cd temp
+cd stuff/temp/stuff/mystuff/matt/i
+cd like
+cd /temp/stuff/temp/stuff/mystuff/matt/i
+rmdir /temp/stuff/temp/stuff/mystuff/matt/i
+rmdir -p /users/yang70/temp/stuff
+rmdir ice-cream
+cd /users/yang70/temp/stuff/temp/stuff/mystuff/matt/i/like
+cd /users/yang70/stuff/temp/stuff/mystuff/matt/i/like
+cd i/like/ice-cream
+cd matt
+cd mystuff
+cd stuff
+cd users/yang70
+rmdir /temp/stuff/temp/stuff
+rmdir /temp/stuff/temp/stuff/mystuff/matt/i/like/ice-cream
+rmdir /temp/stuff/temp/stuff/mystuff/madd/i/like/ice-cream
