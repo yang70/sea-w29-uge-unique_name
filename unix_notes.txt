@@ -1,3 +1,5 @@
+Another test
+
 #display hidden files
 ls -a
 
